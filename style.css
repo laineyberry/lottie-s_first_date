@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden; 
+    background-color: #f7d6d6; 
+}
+
+
+.menuimg {
+    display: flex;
+    height: 100vh; 
+    justify-content: center; 
+    align-items: center; 
+    position: relative; 
+
+}
+
+.menupng {
+    max-height: 100vh; 
+    width: auto; 
+    display: block;
+}
+
+.button1 {
+    position: absolute;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: transparent;
+    top: 60%;
+    left: 37%;
+    width: 350px;
+    height: 6.5%;
+}

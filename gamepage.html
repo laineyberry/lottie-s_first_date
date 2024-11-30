@@ -2,15 +2,39 @@
 
 <html>
     <head> 
-        
+        <meta charset="UTF-8">
         <title>Lottie's First Date</title>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style2.css">
 
     </head>
 
-    <header>
+    <div class = "background"> </div>   
 
-        
+    <body> 
+        <audio autoplay style="display: none;">
+            <source src = "game1.mp3" type="audio/mpeg">
+        </audio>
 
-    </header>
+        <div class = "container1">
+            <img src = "title1.png" alt = "Title" class = "title">
 
+            <div class = "buttons"> 
+            <button id = "hairbtn"> Hair </button>
+            <button id = "outfitbtn"> Outfit </button>
+            <button id = "accbtn"> Accessory 1  </button>
+            <button id = "headbtn"> Accessory 2 </button>
+            <button id = "backbtn"> Background </button>
+        </div>
+        </div>
+
+        <div class = "lottie">
+            <img src = base.png class = "layer" id = "baselayer" alt = "base" >
+            <img class = "layer" id = "backgroundlayer">
+            <img class = "layer" id = "hairlayer">
+            <img class = "layer" id = "outfitlayer">
+            <img class = "layer" id = "headlayer">
+            <img class = "layer" id = "acclayer">
+        </div>
+    </body>
 </html>
