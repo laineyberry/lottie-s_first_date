@@ -182,7 +182,7 @@ document.getElementById("menubtn").addEventListener("click", menuReturn);
 
 window.onload = function () {
     const backpng = document.getElementById("backgroundlayer");
-    backpng.src = background[backI]; // Ensure backI points to back6.png
+    backpng.src = background[backI]; 
 };
 
-console.log("Script is loaded");
+
