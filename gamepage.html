@@ -4,20 +4,25 @@
     <head> 
         <meta charset="UTF-8">
         <title>Lottie's First Date</title>
-        <script src="script.js"></script>
+        <script src="lfd game.js"></script>
         <link rel="stylesheet" href="style2.css">
 
     </head>
 
-    <div class = "background"> </div>   
 
     <body> 
+        
+        <div class = "background">
+            <img src="back6.png" alt="Background" class="backpng" id = "backgroundlayer">
+        </div>   
+
         <audio autoplay style="display: none;">
             <source src = "game1.mp3" type="audio/mpeg">
         </audio>
 
+        <div class = "game"> 
         <div class = "container1">
-            <img src = "title1.png" alt = "Title" class = "title">
+            <img src = "title.png" alt = "Title" class = "title">
 
             <div class = "buttons"> 
             <button id = "hairbtn"> Hair </button>
@@ -25,16 +30,23 @@
             <button id = "accbtn"> Accessory 1  </button>
             <button id = "headbtn"> Accessory 2 </button>
             <button id = "backbtn"> Background </button>
+            <div class = "buttons2"> 
+                <button id = "resetbtn"> Reset </button>
+                <button id = "menubtn"> Menu </button> 
+            </div>
         </div>
         </div>
 
         <div class = "lottie">
             <img src = base.png class = "layer" id = "baselayer" alt = "base" >
-            <img class = "layer" id = "backgroundlayer">
-            <img class = "layer" id = "hairlayer">
-            <img class = "layer" id = "outfitlayer">
-            <img class = "layer" id = "headlayer">
-            <img class = "layer" id = "acclayer">
+
+            <img src = blank.png img class = "layer" id = "outfitlayer">
+            <img src = blank.png img class = "layer" id = "hairlayer">
+            <img src = blank.png img class = "layer" id = "headlayer">
+            <img src = blank.png img class = "layer" id = "acclayer">
         </div>
+    </div>
+
+   
     </body>
 </html>
