@@ -47,8 +47,8 @@ const head = [
 
 const outfit = [
 
-    "outfit1.png",
     "outfit2.png",
+    "outfit1.png",
     "outfit3.png",
     "outfit4.png",
     "outfit5.png",
