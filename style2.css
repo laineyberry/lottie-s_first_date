@@ -6,7 +6,7 @@ body {
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    background-color: hwb(0 100% 0%);     
+    background-color: #FF8298;    
     
 }
 
@@ -118,3 +118,4 @@ img.layer {
     font-size: 20px;                
     border-radius: 5px;    
 }
+

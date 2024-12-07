@@ -167,6 +167,8 @@ function menuReturn() {
 
 }
 
+
+
 document.addEventListener("DOMContentLoaded", function () {
 
 document.getElementById("accbtn").addEventListener("click", changeAcc);
@@ -178,11 +180,12 @@ document.getElementById("backbtn").addEventListener("click", changeBack);
 document.getElementById("resetbtn").addEventListener("click", reset);
 document.getElementById("menubtn").addEventListener("click", menuReturn);
 
+
+
 });
 
 window.onload = function () {
     const backpng = document.getElementById("backgroundlayer");
     backpng.src = background[backI]; 
 };
-
 
